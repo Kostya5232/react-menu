@@ -1,4 +1,8 @@
-// x^2/p - y^2/q = 2z
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class HyperbolicParaboloid extends Figure {
   constructor(
     p = 3,
@@ -46,3 +50,5 @@ class HyperbolicParaboloid extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default HyperbolicParaboloid;

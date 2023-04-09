@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class HyperbolicCylinder extends Figure {
   constructor(
     a = 10,
@@ -64,3 +69,5 @@ class HyperbolicCylinder extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default HyperbolicCylinder;

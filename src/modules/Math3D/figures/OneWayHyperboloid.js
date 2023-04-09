@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class OneWayHyperboloid extends Figure {
   constructor(
     a = 2,
@@ -93,3 +98,5 @@ class OneWayHyperboloid extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default OneWayHyperboloid;

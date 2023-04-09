@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class Ellipsoid extends Figure {
   constructor(
     a = 10,
@@ -47,3 +52,5 @@ class Ellipsoid extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default Ellipsoid;

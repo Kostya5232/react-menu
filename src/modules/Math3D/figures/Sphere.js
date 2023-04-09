@@ -1,9 +1,9 @@
-import React from 'react';
+import Figure from '../entities/Figure';
 import Point from '../entities/Point';
 import Edge from '../entities/Edge';
 import Polygon from '../entities/Polygon';
 
-class Sphere extends React.Figure {
+class Sphere extends Figure {
   constructor(r = 10, count = 20, color = '#ffff44', x = 0, y = 0, z = 0) {
     const points = [];
     const edges = [];

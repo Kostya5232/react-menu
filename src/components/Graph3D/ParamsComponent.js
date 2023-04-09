@@ -28,8 +28,8 @@ class ParamsComponent extends React.Component {
     });
 
     document.querySelectorAll('.checkboxGraph').forEach((elem) => {
-      elem.addEventListener('click', () => {
-        this.checkbox(event.target.value);
+      elem.addEventListener('click', (evt) => {
+        this.checkbox(evt.target.value);
       });
     });
   }

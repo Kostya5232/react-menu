@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class Cone extends Figure {
   constructor(r = 2, count = 8, color = 'lightgreen', x = 0, y = 0, z = 0) {
     const points = [];
@@ -38,3 +43,5 @@ class Cone extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default Cone;

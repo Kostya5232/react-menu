@@ -213,3 +213,5 @@ class Math3D {
     return { isShadow: false };
   }
 }
+
+export default Math3D;

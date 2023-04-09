@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class EllipticalParabaloid extends Figure {
     constructor(a = 10, b = 5, count = 20, color = "lightgreen", x = 0, y = 0, z = 0) {
         const points = [];
@@ -33,3 +38,5 @@ class EllipticalParabaloid extends Figure {
         super(points, edges, polygons);
     }
 }
+
+export default EllipticalParabaloid;

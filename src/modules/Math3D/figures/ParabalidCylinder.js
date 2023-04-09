@@ -1,3 +1,8 @@
+import Figure from '../entities/Figure';
+import Point from '../entities/Point';
+import Edge from '../entities/Edge';
+import Polygon from '../entities/Polygon';
+
 class ParabalidCylinder extends Figure {
   constructor(
     a = 10,
@@ -40,3 +45,5 @@ class ParabalidCylinder extends Figure {
     super(points, edges, polygons);
   }
 }
+
+export default ParabalidCylinder;
